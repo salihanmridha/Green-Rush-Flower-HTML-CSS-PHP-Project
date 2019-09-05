@@ -1,0 +1,52 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 13/09/2018 01:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-messenger:before { content: "\f100"; }
+.flaticon-location-pin:before { content: "\f101"; }
+.flaticon-flower:before { content: "\f102"; }
+.flaticon-spring-1:before { content: "\f103"; }
+.flaticon-spring-2:before { content: "\f104"; }
+.flaticon-giftbox:before { content: "\f105"; }
+.flaticon-gift:before { content: "\f106"; }
+.flaticon-gift-1:before { content: "\f107"; }
+.flaticon-bouquet:before { content: "\f108"; }
+.flaticon-location-pin-1:before { content: "\f109"; }
+.flaticon-maps-and-flags:before { content: "\f10a"; }
+.flaticon-marker:before { content: "\f10b"; }
+.flaticon-messenger-1:before { content: "\f10c"; }
+.flaticon-messenger-2:before { content: "\f10d"; }
+.flaticon-gift-2:before { content: "\f10e"; }
+.flaticon-give-a-gift:before { content: "\f10f"; }
+.flaticon-gift-box:before { content: "\f110"; }
+.flaticon-plant:before { content: "\f111"; }
+.flaticon-plant-on-a-hand:before { content: "\f112"; }
+.flaticon-planting:before { content: "\f113"; }
+.flaticon-plant-1:before { content: "\f114"; }
